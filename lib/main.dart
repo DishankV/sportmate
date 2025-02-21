@@ -25,7 +25,7 @@ Future<bool> _checkFirstRun() async {
 class MyApp extends StatelessWidget {
   final bool isFirstRun;
 
-  MyApp({required this.isFirstRun});
+  const MyApp({required this.isFirstRun});
 
   @override
   Widget build(BuildContext context) {
